@@ -1,0 +1,39 @@
+body {
+	background-color: #3c4045;
+}
+#maintext {
+	position:absolute; 
+	margin:auto;
+	width:700px; 
+	height:300px; 
+	text-align:center;
+	top:0; 
+	bottom: 0; 
+	left: 0; 
+	right: 0;
+}
+#label {
+	padding-right: 5px;
+}
+#box {
+	padding-right: 20px;
+}
+#button {
+	background: #fff;
+	border: 0;
+	padding: 0 24px;
+	color: #283747;
+	font-size: 1rem;
+	border-radius: 4px;
+	line-height: 2rem;
+	font-weight: 600;
+	cursor: pointer;
+}
+#button:hover {
+	background: lightgray !important;
+}
+input[type="number"] {
+	width: 50%;
+	font-size: 0.9rem;
+	padding: 5px 5px;
+}
